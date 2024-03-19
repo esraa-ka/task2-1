@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: "Rubik";
+}
+/* start navbar */
+header {
+    width: 100%;
+    background-color: #f44336;
+}
+.navbar ul {
+    width: 100%;
+    height: 60px;
+    list-style-type: none;
+    border-bottom: 3px solid gray;
+    display: flex;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 15px;
+    margin: 5px;
+    color: #fff;
+
+}
+.navbar ul .const { 
+    background-color: #fff;
+    color: #000 !important;
+    padding: 25px 25px 25px 30px;
+    margin-left: 0;
+}
+/* start hero */
+.hero {
+    width: 100%;
+    height: 450px;
+    background-color: #f44336;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.father {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.hero .father h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 300;
+}
+.hero .father p {
+    font-size: 20px;
+}
+.hero .father .btn {
+    width: 150px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 8px;
+    border: 1px solid #f44336;
+}
+/* end hero */
+/* end navbar */
+/* ########################### */
+ /* start container  */
+.container {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-one {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 300px;
+}
+.item-one h2 {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.item-one .one, .item-one .two{
+    margin-top: 30px;
+    font-weight: 400;
+}
+.item-one .two {
+    margin-top: 30px ;
+    font-size: 13px;
+}
+.item-two {
+    width: 400px;
+    display: flex;
+    margin-right: 200px;
+}
+.item-two i {
+    font-size: 200px;
+    color: #f44336;
+    margin-top: 90px;
+}
+/* end container */
+/* ######################### */
+/* start second container */
+.second-container {
+    width: 100%;
+    height: 450px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-container .item-one {
+        width: 400px;
+        display: flex;
+        margin-left: 300px;
+}
+.second-container .item-one i {
+    font-size: 200px;
+    color: #f44336;
+    margin-top: 130px;+
+}
+.second-container .item-two {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+.second-container .item-two h2 {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.second-container .item-two .one, .second-container .item-two .two {
+    margin-top: 30px;
+    font-weight: 400;
+}
+.second-container .item-two .two {
+    margin-top: 30px ;
+    font-size: 13px;
+}
+/* End  second container */
+/* ######################## */
+/* start quote */
+.quote {
+    width: 100%;
+    height: 100px;
+    background-color: #616161;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote div h3 {
+    font-size: 25px;
+    font-weight: 300;
+}
+/* end quote */
+/* start footer */
+.footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer div {
+    margin-top: 50px;
+}
+.footer div a i{
+    color: #616161;
+    font-size: 25px;
+}
+.footer .footer-text {
+    font-size: 18px;
+    font-weight: 200;
+    color: #808080;
+    margin: 40px 0 20px 0;
+}
+.footer .footer-text a{
+    color: #808080;
+}
+/* End footer  */
+/* END TASK 2 - 1 */
+/* ########################### */
+/* THANKS FOR FOCAL X */
